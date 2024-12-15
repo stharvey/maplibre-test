@@ -54,7 +54,6 @@ const styles = StyleSheet.create({
     height: 46,
     justifyContent: 'center',
     alignItems: 'center',
-    zIndex: 9999,
   },
   markerText: {
     fontSize: 23,
