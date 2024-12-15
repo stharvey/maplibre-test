@@ -54,7 +54,6 @@ const styles = StyleSheet.create({
     height: 46,
     justifyContent: 'center',
     alignItems: 'center',
-    // Try adding a high zIndex if needed
     zIndex: 9999,
   },
   markerText: {
