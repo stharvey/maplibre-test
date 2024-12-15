@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pebbls.maplibretest"
     },
     "web": {
       "bundler": "metro",
@@ -24,6 +25,7 @@
     },
     "plugins": [
       "expo-router",
+      "@maplibre/maplibre-react-native",
       [
         "expo-splash-screen",
         {
@@ -36,6 +38,20 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7788061e-7eca-4ad1-8fd1-d8523a6efb63"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/7788061e-7eca-4ad1-8fd1-d8523a6efb63"
     }
   }
 }
